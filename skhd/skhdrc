@@ -1,7 +1,7 @@
-alt - j : yabai -m window --focus south
-alt - k : yabai -m window --focus north
-alt - h : yabai -m window --focus west
-alt - l : yabai -m window --focus east
+cmd + ctrl + alt + shift - j : yabai -m window --focus south
+cmd + ctrl + alt + shift - k : yabai -m window --focus north
+cmd + ctrl + alt + shift - h : yabai -m window --focus west
+cmd + ctrl + alt + shift - l : yabai -m window --focus east
 
 #alt - s: yabai -m display --focus west
 #alt - g: yabai -m display --focus east
@@ -37,5 +37,5 @@ shift + alt - 7 : yabai -m window --space 7;
 shift + alt - 8 : yabai -m window --space 8;
 shift + alt - 9 : yabai -m window --space 9;
 
-ctrl + alt - q : yabai --stop-service
-ctrl + alt - s : yabai --start-service
+#ctrl + alt - q : yabai --stop-service
+#ctrl + alt - s : yabai --start-service
