@@ -275,6 +275,8 @@ require("lazy").setup({
 
     { "johmsalas/text-case.nvim" },
 
+    -- { "gu-fan/lastbuf.nvim" }, -- TODO install this (github.com issue) and set the g:lastbug_level var to 2 to reopen bufs closed by :bd
+
     -- { "stevearc/oil.nvim" },
 
     -- { "folke/neoconf.nvim" },
@@ -300,7 +302,7 @@ require("lazy").setup({
     -- version = "*", -- try installing the latest stable version for plugins that support semver
   },
   install = { colorscheme = { "tokyonight", "habamax" } },
-  checker = { enabled = true }, -- automatically check for plugin updates
+  checker = { enabled = false, notify = false }, -- automatically check for plugin updates
   performance = {
     rtp = {
       -- disable some rtp plugins
