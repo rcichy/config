@@ -1,0 +1,3 @@
+return {
+  { "mrk21/yaml-vim" },
+}
