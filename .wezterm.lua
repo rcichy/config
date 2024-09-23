@@ -56,7 +56,7 @@ function set_background(config, is_fullscreen)
       },
     }
   else
-    config.window_background_opacity = 0.85
+    config.window_background_opacity = 1
     config.background = nil
   end
 end
